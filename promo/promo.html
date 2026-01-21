@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiper Círculos</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="promo.css">
+</head>
+<body>
+    <section>
+        <div class="promo-dia">
+            <h2>Promoções do Dia</h2>
+        </div>
+    </section>
+
+    <section class="cards1">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide"><div class="card">1</div></div>
+      <div class="swiper-slide"><div class="card">2</div></div>
+      <div class="swiper-slide"><div class="card">3</div></div>
+      <div class="swiper-slide"><div class="card">4</div></div>
+      <div class="swiper-slide"><div class="card">5</div></div>
+      <div class="swiper-slide"><div class="card">6</div></div>
+
+    </div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper('.swiper', {
+      slidesPerView: 'auto',
+      spaceBetween: 10,   // 🔥 controla a distância REAL
+      slidesPerView: 4.5,
+      grabCursor: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+  </script>
+
+ <footer>
+        <div class="footer-p">
+            <p class="p-footer">@adega_pointdocentro|2026 ©</p>
+            <p class="p-footer2">Carapicuíba-Centro</p>
+            <p class="p-footer2">Sábado ás 15h</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
