@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #c0c0c0;
+}
+
+.menu{
+    margin-top: 40px;
+}
+
+
+.pai-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+
+}
+
+.img-logo{
+
+}
+
+.legend{
+    text-align: center;
+}
+
+.title-header{
+     font-family: "Oswald", sans-serif;
+
+}
+
+.infos-header{
+   font-family: "Oswald", sans-serif;
+
+}
+
+.img2-logo{
+    border-radius: 50%;
+}
+
+
+.cardapio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;   
+
+}
+
+.pai-cardapio{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.img-cardapio{
+    
+    background-color: white;
+}
+
+.infos-cardapio{
+     background-color: white;
+     
+     
+}
+
+.p-cardapio{
+    background-color: white;
+    
+}
+
+.img2-cardapio{
+    background-color: white;
+   
+}
+
+
+.promo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;   
+
+}
+
+.pai-promo{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.img-promo{
+    
+    background-color: white;
+}
+
+.infos-promo{
+     background-color: white;
+     
+     
+}
+
+.p-promo{
+    background-color: white;
+    
+}
+
+.img2-promo{
+    background-color: white;
+   
+}
+
+
+.comunicacao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;   
+
+}
+
+.pai-comunicacao{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.img-comunicacao{
+    
+    background-color: white;
+}
+
+.infos-comunicacao{
+     background-color: white;
+     
+     
+}
+
+.p-comunicacao{
+    background-color: white;
+    
+}
+
+.img2-comunicacao{
+    background-color: white;
+   
+}
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;   
+
+}
+
+.pai-localizacao{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.img-localizacao{
+    
+    background-color: white;
+}
+
+.infos-localizacao{
+     background-color: white;
+     
+     
+}
+
+.p-localizacao{
+    background-color: white;
+    
+}
+
+.img2-localizacao{
+    background-color: white;
+   
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;   
+
+}
+
+.pai-sobre{
+    display: flex;
+    border: 1px solid;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.img-sobre{
+    
+    background-color: white;
+}
+
+.infos-sobre{
+     background-color: white;
+     
+     
+}
+
+.p-sobre{
+    background-color: white;
+    
+}
+
+.img2-sobre{
+    background-color: white;
+   
+}
