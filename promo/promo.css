@@ -83,12 +83,12 @@ footer{
 
 @media (max-width: 480px) {
   .swiper-slide {
-    width: 200px;
+    width: 150px;
   }
 
   .card {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     font-size: 18px;
   }
 }
