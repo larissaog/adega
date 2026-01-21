@@ -50,28 +50,23 @@
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  slidesPerView: 4,  // default para desktop
-  spaceBetween: 10,
+  slidesPerView: 'auto',  // 👈 importante para pegar o width do CSS
+  spaceBetween: 10,        // padrão, será sobrescrito pelos breakpoints
   breakpoints: {
-    320: {   // celulares pequenos
-      slidesPerView: 1.5,
-      spaceBetween: 10,
+    320: {
+      spaceBetween: 10,    // telas pequenas
     },
-    480: {   // iPhone XR
-      slidesPerView: 2.5,   // 👈 aqui você controla quantos circulos aparecem
-      spaceBetween: 10,
+    480: {
+      spaceBetween: 3,     // iPhone XR e similares
     },
-    768: {   // tablets
-      slidesPerView: 3.5,
-      spaceBetween: 10,
+    768: {
+      spaceBetween: 10,    // tablets
     },
-    1024: {  // desktops
-      slidesPerView: 4.5,
-      spaceBetween: 10,
+    1024: {
+      spaceBetween: 10,    // desktops
     },
   },
 });
-
 
   </script>
 

@@ -80,8 +80,8 @@ footer{
 }
 @media (max-width: 480px) {
   .card {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     font-size: 16px;
   }
 }
