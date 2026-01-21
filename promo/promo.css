@@ -68,3 +68,27 @@ footer{
     background-color: black !important;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 200px;
+  }
+
+  .card {
+    width: 220px;
+    height: 220px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    width: 200px;
+  }
+
+  .card {
+    width: 220px;
+    height: 220px;
+    font-size: 18px;
+  }
+}
