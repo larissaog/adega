@@ -250,3 +250,39 @@
     background-color: white;
    
 }
+
+@media (max-width: 768px){
+    .pai-cardapio{
+    display: flex;
+    border: 1px solid;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+
+}
+
+@media (max-width: 480px){
+      .pai-cardapio{
+    display: flex;
+    border: 1px solid;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+
+}
