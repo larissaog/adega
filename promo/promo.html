@@ -35,35 +35,30 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
-    new Swiper('.swiper', {
-      slidesPerView: 'auto',
-      spaceBetween: 10,   // 🔥 controla a distância REAL
-      slidesPerView: 4.5,
-      grabCursor: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+   const swiper = new Swiper('.swiper', {
+  grabCursor: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 'auto',  // 👈 importante para pegar o width do CSS
+  spaceBetween: 10,        // padrão, será sobrescrito pelos breakpoints
+  breakpoints: {
+    320: {
+      spaceBetween: 10,    // telas pequenas
+    },
+    480: {
+      spaceBetween: 5,     // iPhone XR e similares
+    },
+    768: {
+      spaceBetween: 10,    // tablets
+    },
+    1024: {
+      spaceBetween: 10,    // desktops
+    },
+  },
+});
 
-      breakpoints: {
-        320: {
-          slidesPerView: 1.2,
-          spaceBetween: 10,
-        },
-        480: {
-          slidesPerView: 3.2,
-          spaceBetween: 5,
-        },
-        768: {
-          slidesPerView: 3.2,
-          spaceBetween: 10,
-        },
-        1024: {
-          slidesPerView: 4.5,
-          spaceBetween: 10,
-        },
-      },
-    });
   </script>
 
  <footer>
