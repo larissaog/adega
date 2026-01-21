@@ -7,6 +7,12 @@
     background-color: #c0c0c0;
 }
 
+a {
+  text-decoration: none; /* tira o sublinhado */
+  color: inherit;        /* herda a cor normal do texto */
+  display: block;        /* faz o link ocupar toda a área */
+}
+
 .menu{
     margin-top: 40px;
 }
@@ -47,7 +53,8 @@
 .cardapio{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
+    cursor: pointer;   
 
 }
 
@@ -89,7 +96,8 @@
 .promo{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
+    cursor: pointer;      
 
 }
 
@@ -131,7 +139,8 @@
 .comunicacao{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;  
+    cursor: pointer;    
 
 }
 
@@ -172,7 +181,8 @@
 .localizacao{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;   
+    margin-bottom: 15px; 
+    cursor: pointer;     
 
 }
 
@@ -213,9 +223,12 @@
 .sobre{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;   
+    margin-bottom: 15px; 
+    cursor: pointer;
+       
 
 }
+
 
 .pai-sobre{
     display: flex;
@@ -393,4 +406,27 @@
 
 
 
+}
+
+.footer-p{
+    color: white;
+    background-color: black !important;
+    
+}
+.p-footer{
+    background-color: black !important;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer2{
+    background-color: black !important;
+    text-align: center;
 }
