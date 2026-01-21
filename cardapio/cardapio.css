@@ -33,3 +33,17 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+.imglogopai{
+    border-radius: 50%;
+}
+
+.divpai1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titlepai{
+    margin-top: 20px;
+}
