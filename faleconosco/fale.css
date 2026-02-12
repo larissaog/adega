@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .faleconosco{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
     flex-direction: column;
+    margin-top: 200px;
+
     
 }
 
@@ -12,6 +19,8 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
+    border-radius: 15px;
+    
 }
 
 .zapf{
@@ -24,6 +33,7 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 .insta{
@@ -36,6 +46,7 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 .face{
@@ -47,6 +58,7 @@
     border: 1px solid black;
     width: 370px;
     height: 45px;
+    border-radius: 15px;
 }
 
 .emailf{
@@ -56,6 +68,8 @@
 
 .iconemail{
     margin-left: 10px;
+     margin-top: 10px;
+
 }
 
 .iconzap{
@@ -71,4 +85,48 @@
 .iconinsta{
     margin-left: 10px;
     margin-top: 10px;
+}
+
+body{
+    background-color: #c0c0c0;
+}
+
+a {
+  text-decoration: none;  /* tira o sublinhado */
+  color: inherit;         /* usa a mesma cor do texto da div */
+}
+
+.email-p, .face-p, .insta-p, .zap-p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p{
+    color: white ;
+    background-color: black !important;
+    
+}
+.p-footer{
+    background-color: black !important;
+}
+
+.p-footer2{
+    background-color: black !important;
+    text-align: center;
 }
