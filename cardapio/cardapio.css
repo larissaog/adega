@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #c0c0c0;
+   
 }
 
 
@@ -28,7 +28,7 @@
 .card {
   
   min-height: 350px;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 8px;
   padding: 16px;
   display: flex;
