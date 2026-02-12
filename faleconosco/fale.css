@@ -1,0 +1,55 @@
+.faleconosco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    
+}
+
+.zap{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.zapf{
+    display: flex;
+    gap: 30px;
+}
+
+.instagram{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.insta{
+    display: flex;
+    gap: 30px;
+}
+
+.facebook{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.face{
+    display: flex;
+    gap: 30px;
+}
+
+.email{
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+}
+
+.emailf{
+    display: flex;
+    gap: 30px;
+}
