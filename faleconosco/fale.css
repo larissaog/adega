@@ -10,7 +10,7 @@
 .zap{
     border: 1px solid black;
     width: 370px;
-    height: 40px;
+    height: 45px;
     margin-bottom: 30px;
 }
 
@@ -22,7 +22,7 @@
 .instagram{
     border: 1px solid black;
     width: 370px;
-    height: 40px;
+    height: 45px;
     margin-bottom: 30px;
 }
 
@@ -34,7 +34,7 @@
 .facebook{
     border: 1px solid black;
     width: 370px;
-    height: 40px;
+    height: 45px;
     margin-bottom: 30px;
 }
 
@@ -46,7 +46,7 @@
 .email{
     border: 1px solid black;
     width: 370px;
-    height: 40px;
+    height: 45px;
 }
 
 .emailf{
@@ -56,4 +56,19 @@
 
 .iconemail{
     margin-left: 10px;
+}
+
+.iconzap{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.iconface{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.iconinsta{
+    margin-left: 10px;
+    margin-top: 10px;
 }
