@@ -130,3 +130,9 @@ footer{
     background-color: black !important;
     text-align: center;
 }
+
+.saida{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
