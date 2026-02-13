@@ -51,10 +51,11 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 30px;
 }
 
 .titlepai{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .p-preço{
