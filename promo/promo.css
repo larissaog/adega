@@ -17,7 +17,7 @@
 
 /* Slide NÃO pode ter margem */
 .swiper-slide {
-  width: 320px;
+ 
   display: flex;
   justify-content: center;
 }
