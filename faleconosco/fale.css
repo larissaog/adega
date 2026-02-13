@@ -19,7 +19,7 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
-    border-radius: 15px;
+    
     
 }
 
@@ -33,7 +33,7 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
-    border-radius: 15px;
+    
 }
 
 .insta{
@@ -46,7 +46,7 @@
     width: 370px;
     height: 45px;
     margin-bottom: 30px;
-    border-radius: 15px;
+    
 }
 
 .face{
@@ -58,7 +58,7 @@
     border: 1px solid black;
     width: 370px;
     height: 45px;
-    border-radius: 15px;
+   
 }
 
 .emailf{
@@ -88,7 +88,7 @@
 }
 
 body{
-    background-color: #c0c0c0;
+    background-color: #ffffff;
 }
 
 a {
